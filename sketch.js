@@ -1,10 +1,6 @@
-
 var rays = 8;
 var length = 200;
 var points = 40;
-
-
-var mySeed = 0;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -15,7 +11,7 @@ function setup() {
 
 function draw() {
 	background(0, 0, 100);
-
+	
 	//calculate angle between rays
 	var degrees = 360/rays;
 
